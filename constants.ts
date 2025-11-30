@@ -98,7 +98,7 @@ export const USE_CASES: Record<string, UseCase[]> = {
                 "Trajectory Prediction",
                 "Decoy Discrimination",
             ],
-            image: "/public/submarine.jpg",
+            image: "/submarine.jpg",
             // Submarine image
         },
         {
@@ -127,7 +127,7 @@ export const USE_CASES: Record<string, UseCase[]> = {
                 "Structural Integrity",
                 "Third-party Intrusion",
             ],
-            image: "/public/offshore.jpg", // Offshore Rig
+            image: "/offshore.jpg", // Offshore Rig
         },
         {
             id: "aquaculture",
@@ -140,7 +140,7 @@ export const USE_CASES: Record<string, UseCase[]> = {
                 "Predator Alerts",
                 "Feeding Activity Monitoring",
             ],
-            image: "/public/fishing.jpg", // Underwater school of fish
+            image: "/fishing.jpg", // Underwater school of fish
         },
     ],
 };
@@ -185,7 +185,7 @@ export const CASE_STUDIES: CaseStudy[] = [
             { label: "DETECTION RANGE", value: "800m" },
             { label: "FALSE ALARMS", value: "ZERO" },
         ],
-        image: "/public/surveillance.jpg", // Buoy / Water Surface
+        image: "/surveillance.jpg", // Buoy / Water Surface
     },
     {
         id: "CS_002",
@@ -201,7 +201,7 @@ export const CASE_STUDIES: CaseStudy[] = [
             { label: "EARLY WARNING", value: "3 WEEKS" },
             { label: "UPTIME", value: "100%" },
         ],
-        image: "/public/Windmills on Grass Field.jpg", // Wind Farm
+        image: "/Windmills on Grass Field.jpg", // Wind Farm
     },
     {
         id: "CS_003",
@@ -217,6 +217,6 @@ export const CASE_STUDIES: CaseStudy[] = [
             { label: "COVERAGE", value: "100km" },
             { label: "ACCURACY", value: "94%" },
         ],
-        image: "/public/Diving Suit Near Sunken Ship.jpg", // Diver / Cable work
+        image: "/Diving Suit Near Sunken Ship.jpg", // Diver / Cable work
     },
 ];
