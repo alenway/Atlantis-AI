@@ -20,19 +20,19 @@ export const TEAM: TeamMember[] = [
         name: "Anas Mev",
         role: "CEO / STRATEGY",
         bio: "Defense-tech specialist. Ex-Samarthya Capital. Driving the dual-use operational strategy.",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop",
+        image: "/anasmev.png",
     },
     {
         name: "Dr. Sudhir Silwal",
         role: "CTO / SIGNALS",
         bio: "15+ years AI/ML & Signal Processing. Architect of the core acoustic recognition engine.",
-        image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop",
+        image: "/sudhir.png",
     },
     {
         name: "Capt. Sunil Tyagi",
         role: "NAVAL ADVISOR",
         bio: "27 yrs Indian Navy. Submarine stealth designer. PhD in ML Acoustics. Domain Authority.",
-        image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop",
+        image: "/sunil.png",
     },
 ];
 
