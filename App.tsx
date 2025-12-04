@@ -1,32 +1,25 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import TrustBar from './components/ProblemStats';
-import UseCases from './components/Features';
-import Integration from './components/Integration';
-import SonarDemo from './components/SonarDemo';
-import Team from './components/Team';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import CaseStudies from './components/CaseStudies';
+import { Route, Routes } from "react-router-dom";
+import Layout from "./Layout";
+import Home from "./pages/HomePage";
+import NewHome from "./pages/NewHome";
 
 function App() {
-  return (
-    <div className="bg-ocean-950 min-h-screen text-slate-200 selection:bg-sonar-light selection:text-ocean-950">
-      <Navbar />
-      <main>
-        <Hero />
-        <TrustBar />
-        <UseCases />
-        <CaseStudies />
-        <Integration />
-        <SonarDemo />
-        <Team />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
-  );
+    return (
+        <Routes>
+            {/* Layout route */}
+            <Route path="/" element={<Layout />}>
+                {/* Home page */}
+                <Route index element={<Home />} />
+
+                {/* New page at /home */}
+                <Route path="home" element={<NewHome />} />
+
+                {/* Add more pages later */}
+                {/* <Route path="about" element={<About />} /> */}
+                {/* <Route path="pricing" element={<Pricing />} /> */}
+            </Route>
+        </Routes>
+    );
 }
 
 export default App;
