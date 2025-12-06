@@ -16,7 +16,7 @@ export default function Home() {
             <CaseStudies />
             <Integration />
             <SonarDemo />
-            <Team />
+            <Team members={SPECIAL_TEAM} title="Special Divison" />
             <Contact />
         </>
     );

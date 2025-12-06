@@ -34,6 +34,27 @@ export const TEAM: TeamMember[] = [
         bio: "27 yrs Indian Navy. Submarine stealth designer. PhD in ML Acoustics. Domain Authority.",
         image: "/sunil.png",
     },
+    {
+        name: "Dr. Chakraborty Bishwajit ",
+        role: "NAVAL ADVISOR",
+        bio: "27 yrs Indian Navy. Submarine stealth designer. PhD in ML Acoustics. Domain Authority.",
+        image: "/sunil.png",
+    },
+];
+
+export const SPECIAL_TEAM = [
+    {
+        name: "New Member",
+        role: "AI RESEARCH",
+        bio: "Leading sonar reconstruction and simulation models.",
+        image: "/newguy.png",
+    },
+    {
+        name: "Another Person",
+        role: "ML ENGINEER",
+        bio: "Designing subsea detection signatures.",
+        image: "/another.png",
+    },
 ];
 
 export const ROADMAP: RoadmapItem[] = [
